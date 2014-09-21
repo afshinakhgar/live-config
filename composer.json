@@ -26,5 +26,10 @@
             "Afshin\\LiveConfig\\": "src/"
         }
     },
+    "support": {
+        "email": "afshin@akhgar.net",
+        "issues": "https://github.com/afshinpersian/live-config/issues",
+        "source": "https://github.com/afshinpersian/live-config/tree/master/src"
+    },
     "minimum-stability": "stable"
 }
