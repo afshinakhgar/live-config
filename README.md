@@ -32,9 +32,13 @@ add this line in your composer <br>
 		);
 
 </code>
+you should also do the migrate to add database for configuration table >>>
 
-you should also do the migrate to add database for configuration table
-php artisan migrate --package="afshin/liveConfig"
+<br>
+<br>
+<code>
+	php artisan migrate --package="afshin/live-config"
+</code>
 
 Usage
 ===========
