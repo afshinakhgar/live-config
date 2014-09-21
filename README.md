@@ -33,6 +33,9 @@ add this line in your composer <br>
 
 </code>
 
+you should also do the migrate to add database for configuration table
+php artisan migrate --package="afshin/liveConfig"
+
 Usage
 ===========
 for set a config with config name and value you should  use like below :
