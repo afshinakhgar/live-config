@@ -31,6 +31,7 @@
         "issues": "https://github.com/afshinpersian/live-config/issues",
         "source": "https://github.com/afshinpersian/live-config/tree/master/src"
     },
+    "minimum-stability": "dev",
     "scripts": {
         "post-install-cmd": [
             "php artisan migrate --package='afshin/live-config'"
@@ -39,6 +40,5 @@
             "php artisan optimize",
             "php artisan migrate --package='afshin/live-config'"
         ],
-    },
-    "minimum-stability": "dev"
+    }
 }
