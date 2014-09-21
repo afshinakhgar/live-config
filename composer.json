@@ -32,5 +32,5 @@
         "issues": "https://github.com/afshinpersian/live-config/issues",
         "source": "https://github.com/afshinpersian/live-config/tree/master/src"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
