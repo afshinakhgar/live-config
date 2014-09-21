@@ -14,8 +14,7 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "classmap": [
@@ -31,5 +30,5 @@
         "issues": "https://github.com/afshinpersian/live-config/issues",
         "source": "https://github.com/afshinpersian/live-config/tree/master/src"
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
