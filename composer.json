@@ -5,6 +5,7 @@
     "keywords": ["config","configuration","live-config","database configuration","database config","db config"],
     "homepage": "https://github.com/afshinpersian/live-config",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Afshin",
