@@ -14,7 +14,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
     },
     "autoload": {
         "classmap": [
@@ -29,6 +30,15 @@
         "email": "afshin@akhgar.net",
         "issues": "https://github.com/afshinpersian/live-config/issues",
         "source": "https://github.com/afshinpersian/live-config/tree/master/src"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan migrate --package='afshin/live-config'"
+        ],
+        "post-update-cmd": [
+            "php artisan optimize",
+            "php artisan migrate --package='afshin/live-config'"
+        ],
     },
     "minimum-stability": "dev"
 }
