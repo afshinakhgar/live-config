@@ -1,9 +1,9 @@
 {
     "name": "afshin/live-config",
     "description": "database driven configuration",
-    "type": "library",
-    "keywords": ["config","configuration"],
-    "homepage": "http://github.com/Seldaek/monolog",
+    "type": "package",
+    "keywords": ["config","configuration","live-config","database configuration","database config","db config"],
+    "homepage": "https://github.com/afshinpersian/live-config",
     "license": "MIT",
     "authors": [
         {
