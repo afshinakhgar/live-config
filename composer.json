@@ -1,10 +1,16 @@
 {
     "name": "afshin/live-config",
-    "description": "",
+    "description": "database driven configuration",
+    "type": "library",
+    "keywords": ["config","configuration"],
+    "homepage": "http://github.com/Seldaek/monolog",
+    "license": "MIT",
     "authors": [
         {
             "name": "Afshin",
-            "email": "afshin@akhgar.net"
+            "email": "afshin@akhgar.net",
+            "homepage": "http://akhgar.net",
+            "role": "CEO/CTO"
         }
     ],
     "require": {
@@ -13,7 +19,8 @@
     },
     "autoload": {
         "classmap": [
-            "src/migrations"
+            "src/migrations",
+            "src/models"
         ],
         "psr-0": {
             "Afshin\\LiveConfig\\": "src/"

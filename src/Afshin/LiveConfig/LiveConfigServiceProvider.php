@@ -28,7 +28,18 @@ class LiveConfigServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		//
+		$this->app['liveConfig'] = $this->app->share(function($app)
+		{
+			return new LiveConfig;
+		});
+		$this->app->booting(function()
+		{
+		  $loader = \Illuminate\Foundation\AliasLoader::getInstance();
+		  $loader->alias('LiveConfig', 'Afshin\LiveConfig\Facades\LiveConfig');
+		});
+	
+
+
 	}
 
 	/**
