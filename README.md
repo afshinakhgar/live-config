@@ -21,15 +21,15 @@ Installation
 ===========
 for installing this package you can use composer 
 
-add this line in your composer <br>
+[add this line in your composer] <br>
 <code>"afshin/live-config": "dev-master"</code>
 >> after that add this to the end of your config/app.php file 
 <br>
 <code>
-    'providers' => array(
+    ```'providers' => array(
 			.......
 			'Afshin\LiveConfig\LiveConfigServiceProvider'
-		);
+		);```
 
 </code>
 you should also do the migrate to add database for configuration table >>>
@@ -37,7 +37,7 @@ you should also do the migrate to add database for configuration table >>>
 <br>
 <br>
 <code>
-	php artisan migrate --package="afshin/live-config"
+	``php artisan migrate --package="afshin/live-config"``
 </code>
 
 Usage
