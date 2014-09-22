@@ -4,8 +4,8 @@ live-config
 live config is an laravel package that help us to manage configs from database( database driven configuration system)
 with this small package you can manage your configuaration from database and you are not depend on filesystem configuration anymore
 
-- this is my first laravel package . please let me know if any error happend
-thanks
+this is not a replacement for laravel filesystem config ( this is just simple database driven configuration system) 
+[setting] if you want add some setting that user can change and manage on your laravel based site so this is awesome ! :D
 
 ===========
 
